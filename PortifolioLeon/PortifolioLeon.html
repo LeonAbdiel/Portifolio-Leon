@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortifolioLeon</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <!-- Cabeçalho do Portifólio -->
+    <header class="cabecalho">
+        <h1 class="nome">Leon Abdiel Silva dos Santos</h1>
+        <p class="color">Estudante de Engenharia de software em formação</p>
+
+        <nav class="menu">
+            <a href="#sobre">Sobre mim</a>
+            <a href="#conhecimento">Conhecimento</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contatos">Contatos</a>
+        </nav>
+    </header>
+    <!-- Conteúdo Principal -->
+    <main>
+        <section class="secao" id="sobre">
+            <h1>SOBRE MIM</h1>
+            <p>Sou um estudante da Ucsal
+                (Universidade Catolica de Salvador)
+                tenho 18 anos e atualmente estou
+                aprendendo JAVA, HTML, CSS e
+                JavaScript, no futuro pretendo
+                desenvolver sites desde o Back-End
+                até o Front-End (full stack). </p>
+        </section>
+
+        <section class="secao" id="conhecimento">
+            <header class="cabecalho2">
+                <h1>CONHECIMENTO</h1>
+                <p class="texto">
+                    HTML<br>
+                    CSS<br>
+                    JavaScript<br>
+                    Java<br>
+                    Git e GitHub
+                </p>
+            </header>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tecnologia</th>
+                            <th>Nível</th>
+                            <th>Onde aplico</th>
+                        </tr>
+                    </thead>
+
+                    <body>
+                        <tr>
+                            <td>HTML</td>
+                            <td>Iniciante</td>
+                            <td>Estrutura de Páginas</td>
+                        </tr>
+                        <tr>
+                            <td>CSS</td>
+                            <td>Iniciante</td>
+                            <td>Estilização</td>
+                        </tr>
+                        <tr>
+                            <td>JavaScript</td>
+                            <td>Iniciante</td>
+                            <td>Interatividade</td>
+                        </tr>
+                        <tr>
+                            <td>Java</td>
+                            <td>Intermediario</td>
+                            <td>Back-End</td>
+                        </tr>
+                    </body>
+                </table>
+            </div>
+        </section>
+
+        <section class="secao" id="projetos">
+            <h1>PROJETOS</h1>
+            <div class="cards container">
+                <article class="card">
+                    <h3>Meu Primeiro Site</h3>
+                    <p>Projeto criado para o treinamento da estrutura HTML e organização de conteúdo.</p>
+                    <p>Tecnologias: HTML</p>
+                    <a href="#">Clique aqui para ver o Projeto</a>
+                </article>
+                <article class="card">
+                    <h3>Primeiro POO</h3>
+                    <p>Meu primeiro projeto programado orientado a objetos, com Front-End e Back-End</p>
+                    <p>Tecnologias: Java</p>
+                    <a href="#">Clique aqui para ver o projeto</a>
+                </article>
+                <article class="card">
+                    <h3>PortifolioLeon</h3>
+                    <p>Projeto em desenvolvimento para apresentar os meus conhecimentos.</p>
+                    <p>Tecnologias: HTML, CSS, JavaScript</p>
+                    <a href="#">Ver repositorios</a>
+                </article>
+                <aside class="extra">
+                    <h2>Informações extras</h2>
+                    <p>objetivos atuais: desenvolver os primeiros projetos Front-End e fullstack</p>
+                    <ul>
+                        <li>GitHub: <a href="https://github.com/LeonAbdiel">GitHubLeon</a></li>
+                        <li>LinkedIn: <a href="https://www.linkedin.com/in/leon-santos-96b485407/">LinkedinLeon</a></li>
+                        <li>Interesse: Desenvolvimento fullstack</li>
+                    </ul>
+                </aside>
+            </div>
+        </section>
+
+        <section class="secao" id="contatos">
+            <h1>CONTATOS</h1>
+            <form>
+                <label for="nome">nome</label>
+                <input type="text" id="nome" name="email">
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem"></textarea>
+
+                <button class="botao" type="submit">Enviar mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+
+    <footer>
+        <p>Portfólio de Leon Abdiel Silva dos Santos - 2026</p>
+        <p>Desenvolvido como atividade da disciplina de Programação Front-End.</p>
+    </footer>
+
+</body>
+
+</html>
